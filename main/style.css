@@ -1,6 +1,3 @@
-/* style.css */
-
-/* Reset some default browser styles */
 body,
 h1,
 p,
@@ -10,7 +7,7 @@ li {
   padding: 0;
 }
 
-/* Apply a background color and font styles to the body */
+/* background color and font styles to the body */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f7f7f7;
@@ -20,7 +17,7 @@ body {
   padding: 0;
 }
 
-/* Style the header and navigation menu */
+/* header and navigation menu */
 header {
   background-color: #333;
   color: #fff;
@@ -44,7 +41,7 @@ nav a {
   font-size: 18px;
 }
 
-/* Style the main content section */
+/* main content section */
 .teamDescription,
 .teamFeature,
 .teamGoal,
@@ -82,7 +79,7 @@ nav a {
   margin-top: 20px;
 }
 
-/* Style the footer */
+/* footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -90,7 +87,6 @@ footer {
   padding: 10px 0;
 }
 
-/* Add responsive styles if needed */
 @media screen and (max-width: 600px) {
   header {
     padding: 10px 0;
@@ -106,4 +102,8 @@ footer {
   .teamPromise {
     padding: 50px 0;
   }
+}
+
+.toggle-content.hidden {
+  display: none;
 }
