@@ -1,4 +1,3 @@
-// Get the Learn More buttons
 var learnMoreButtons = document.querySelectorAll(".learn-more");
 
 learnMoreButtons.forEach(function (button) {
