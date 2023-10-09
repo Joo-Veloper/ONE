@@ -17,6 +17,13 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
 /* main content section */
 .teamDescription,
 .teamFeature,
@@ -82,4 +89,21 @@ footer {
 
 .toggle-content.hidden {
   display: none;
+}
+
+#teamPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#teamPhotos img {
+  width: 350px;
+  height: 350px;
+}
+
+#gatherPhoto img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
